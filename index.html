@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibtain Mohammad Sofi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="hello">Hi, I am</p>
+            <h1>Sibtain Mohammad Sofi</h1>
+            <p class="tagline">Student | Aspiring Web Developer</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#learning">Learning</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="card">
+            <div class="intro">
+                <div class="intro-text">
+                    <h2>About Me</h2>
+                    <p>Hello! My name is <strong>Sibtain Mohammad Sofi</strong>. I am currently studying in the <b>first semester</b> at Amar Singh College, where I am pursuing a <u>BCA</u>.</p>
+                    <p>I have also completed a <i>six-month Diploma in Computer Application</i>. I enjoy learning about computers and creating simple web pages.</p>
+                </div>
+                <div class="laptop" role="img" aria-label="A laptop showing a simple web page">
+                    <div class="laptop-screen">
+                        <div class="screen-bar"><i></i><i></i><i></i></div>
+                        <div class="screen-content"><span>&lt;html&gt;</span><b>My Website</b><small>Learning something new every day</small><span>&lt;/html&gt;</span></div>
+                    </div>
+                    <div class="laptop-base"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="learning" class="card">
+            <h2>My Learning Journey</h2>
+            <p>I have completed the basics of <strong>HTML and CSS</strong>. I am now planning to learn <u>Java</u> and <u>Python</u> to build my programming skills.</p>
+            <p class="note">I believe that learning step by step is the best way to improve.</p>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <p><span class="contact-icon email-icon">✉</span> <a href="mailto:mohdsibtain81@gmail.com">mohdsibtain81@gmail.com</a></p>
+            <p><span class="contact-icon instagram-icon">◎</span> <a href="https://www.instagram.com/sibtaiinmohd/" target="_blank" rel="noopener">@sibtaiinmohd on Instagram</a></p>
+
+            <h3>Send Me a Message</h3>
+            <p>Fill in your details below. Your email app will open with the message ready to send.</p>
+            <form action="mailto:mohdsibtain81@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+
+                <label for="message">Your message</label>
+                <textarea id="message" name="Message" rows="5" placeholder="Write your message here" required></textarea>
+
+                <button type="submit">Submit Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Sibtain Mohammad Sofi | Made with HTML and CSS</p>
+    </footer>
+</body>
+</html>
